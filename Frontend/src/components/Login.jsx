@@ -26,7 +26,7 @@ const Login = () => {
 
      {/* EMAIL */}
     <div className='mt-4 space-y-2'>
-        <span>Email</span>
+        <span>Email id</span>
         <br />
         <input type="text" placeholder='Enter your email'  className='w-80 px-3 py-1 border rounded-md outline-none'  {...register("email", { required: true })} />
         <br />
